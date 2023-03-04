@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do List App</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>To-Do List App</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <form id="taskForm">
+          <div class="form-group">
+            <label for="taskInput">Add Task</label>
+            <input type="text" class="form-control" id="taskInput" placeholder="Enter task">
+          </div>
+          <button type="submit" class="btn btn-primary">Add</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <ul id="taskList" class="list-group">
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="btn-group" role="group">
+          <button id="allTasks" type="button" class="btn btn-default">All Tasks</button>
+          <button id="completedTasks" type="button" class="btn btn-default">Completed Tasks</button>
+          <button id="activeTasks" type="button" class="btn btn-default">Active Tasks</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
